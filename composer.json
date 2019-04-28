@@ -1,6 +1,6 @@
 {
-    "name": "linshunwei/danharim",
-    "description": "东合im 调用服务端接口",
+    "name": "linshunwei/danhar-im",
+    "description": "a",
     "license": "MIT",
     "authors": [
         {
@@ -9,16 +9,11 @@
         }
     ],
     "require": {
-        "php": ">=7.0"
+
     },
     "autoload": {
         "psr-4": {
-            "Linshunwei\\Danharim\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Linshunwei\\Danharim\\Tests\\": "tests/"
+            "Linshunwei\\DanharIm\\": "src/"
         }
     }
 }
