@@ -35,4 +35,11 @@ DANHAR_IM_HOST=127.0.0.1
 DANHAR_IM_APP_ID=xxxx
 DANHAR_IM_APP_SECRET=xxx
 ```
+代码调用 消息列表+
+```php
+use Linshunwei\DanharIm\DanharIm;
+
+    $im = new DanharIm();
+    $res = $im->msgList();
+```
 
