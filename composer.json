@@ -1,0 +1,24 @@
+{
+    "name": "linshunwei/danharim",
+    "description": "东合im 调用服务端接口",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linshunwei",
+            "email": "lsw.nba@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linshunwei\\Danharim\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Linshunwei\\Danharim\\Tests\\": "tests/"
+        }
+    }
+}
