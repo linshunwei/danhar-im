@@ -15,5 +15,12 @@
         "psr-4": {
             "Linshunwei\\DanharIm\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Linshunwei\\DanharIm\\DanharImServiceProvider"
+            ]
+        }
     }
 }
