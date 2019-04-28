@@ -13,7 +13,9 @@ class DanharImServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+	    $this->publishes([
+		    __DIR__ . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'danhar-im.php' => config_path('danhar-im.php'),
+	    ], 'config');
     }
 
     /**
