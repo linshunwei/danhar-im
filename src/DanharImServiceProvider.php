@@ -28,7 +28,7 @@ class DanharImServiceProvider extends ServiceProvider
 			    __DIR__ . '/../config/danhar-im.php' => config_path('danhar-im.php'),
 		    ]);
 	    }
-	    $this->mergeConfigFrom(__DIR__.'/../config/xunsearch.php', 'xunsearch');
+	    $this->mergeConfigFrom(__DIR__.'/../config/danhar-im.php', 'danhar-im');
         //这里使用到了facades中的字符串
         $this->app->singleton('danharim',function(){
 	        return new DanharIm();
