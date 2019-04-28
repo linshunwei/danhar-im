@@ -1,11 +1,11 @@
 <?php
+
 namespace Linshunwei\DanharIm;
-use Illuminate\Support\Facades\Facade;
-class DanharIm extends Facade
+
+class DanharIm
 {
-    public static function getFacadeAccessor()
-    {
-        //return 的字符串会在相应的provider中使用
-        return 'danharim';
-    }
+	public function printRunning()
+	{
+		echo 'running';
+	}
 }
