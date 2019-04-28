@@ -12,7 +12,7 @@ composer require linshunwei/danhar-im
 ```php
 'providers' => [
     //...
-    linshunwei\DanharIm\DanharImServiceProvider::class,
+    Linshunwei\DanharIm\DanharImServiceProvider::class,
     //...
 ],
 ```
