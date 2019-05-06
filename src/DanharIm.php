@@ -408,7 +408,7 @@ class DanharIm
 				return;
 			}
 			if (gettype($v) == 'object' || gettype($v) == 'array') {
-				$obj[$k] = (array)object_to_array($v);
+				$obj[$k] = (array)$this->object_to_array($v);
 			}
 		}
 
