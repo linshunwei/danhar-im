@@ -209,7 +209,7 @@ class DanharIm
 		$data = [
 			'tid' => $tid,
 			'owner' => $owner,
-			'members' => json_encode($members),
+			'members' => $members,
 			'magree' => $magree,
 			'msg' => $msg,
 		];
